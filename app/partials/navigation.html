@@ -1,0 +1,41 @@
+<div class="row main-row">
+
+    <ul [class.velocity-transition]="navVisible" class="side-nav fixed" id="nav-mobile">
+
+        <li class="no-padding">
+
+            <ul class="collapsible collapsible-accordion">
+
+                <li class="list-header"><span>TOUTES LES RUBRIQUES</span></li>
+
+                <li [class.active]="navItems[i]" *ngFor="let header of headers[0]; let i = index" class="bold">
+
+                    <a (click)="toggleNav(i, navItems);" [class.active]="navItems[i]" class="collapsible-header">
+
+                        <i class="material-icons">{{ header.icon }}</i>{{ header.link }}
+
+                    </a>
+
+                    <div [class.block]="navItems[i]" class="collapsible-body">
+
+                        <ul>
+
+                            <li [class.active]="nav.active" *ngFor="let nav of navigation[i]">
+
+                                <a [routerLink]="nav.url" (click)="nav.active = true">{{ nav.link }}</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </li>
+
+    </ul>
+
+    <router-outlet></router-outlet>
+
+</div><!-- row -->

@@ -1,0 +1,124 @@
+<div class="white trans-toggle"><!--[class.trans-toggle]="navVisible"-->
+
+    <button data-activates="nav-mobile" class="c-hamburger c-hamburger--htx button-collapse top-nav full"><!--(click)="navVisible = !navVisible;"-->
+        <span>toggle menu</span><p>Menu</p>
+    </button>
+
+    <nav>
+
+        <a class="brand-logo" href="index.html" id="logo-container"></a>
+
+        <ul class="right">
+
+            <li [class.block]="searchVisible" class="search-nav">
+                <div class="search-wrapper card">
+                    <input id="search-nav">
+                    <div class="search-results"></div>
+                </div>
+            </li><!-- search box -->
+
+            <li (click)="searchVisible = !searchVisible;" class="block-icon search-icon">
+                <i class="material-icons">search</i>
+            </li><!-- search icon -->
+
+            <li class="block-icon user">
+                <div [class.anim]="userInfoVisible" class="user-info">
+
+                    <a (click)="userInfoVisible = !userInfoVisible;" class="close-user-info"><i class="material-icons">clear</i></a>
+
+                    <h3>Frédéric EPPLER (vitrinellis)</h3>
+                    <p><strong>SUPER ADMIN</strong></p>
+                    <p><a href="javascript:void(0);">Déconnexion</a></p>
+
+                </div><!-- user-info -->
+                <a (click)="userInfoVisible = !userInfoVisible;"><i class="material-icons">perm_identity</i></a>
+            </li>
+        </ul>
+
+    </nav><!-- nav -->
+
+</div><!-- white -->
+
+<main class="main trans-toggle animated fadeIn"><!--[class.trans-toggle]="navVisible"-->
+
+    <div class="search">
+        <div class="search-wrapper card">
+            <input id="search">
+            <i class="material-icons">search</i>
+            <div class="search-results"></div>
+        </div>
+    </div><!-- search box -->
+
+    <div class="container banner-container">
+
+        <div class="parallax-container">
+
+            <div class="valign-wrapper center text-overlay">
+                <div class="valign">
+                    <h4>Vous souhaitez rester au top ou booster votre positionnement&nbsp;?<br>Découvrez nos solutions de référencement.</h4>
+                    <a href="tel:0143537266" class="waves-effect waves-light btn-large">01 43 53 72 66</a>
+                </div>
+            </div>
+
+            <div class="parallax">
+                <img src="app/images/banner-seo.jpg" alt="Banner SEO">
+            </div>
+
+        </div><!-- parallax-container -->
+
+        <nav id="breadcrumb">
+            <div class="nav-wrapper">
+                <a href="#!" class="breadcrumb">First</a>
+                <a href="#!" class="breadcrumb">Second</a>
+                <a href="#!" class="breadcrumb">Third</a>
+            </div>
+        </nav><!-- breadcrumb -->
+
+        <h1 class="header"><i class="material-icons">timeline</i>Statistiques</h1>
+        <p>Période d'analyse du <input type="date" class="datepicker"> au <input type="date" class="datepicker"></p>
+
+        <div class="row">
+
+            <div class="col s12 m6 l4">
+                <div class="info-box"></div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="info-box"></div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="info-box"></div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="info-box"></div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="info-box"></div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="info-box"></div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="info-box"></div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="info-box"></div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="info-box"></div>
+            </div>
+
+        </div><!-- row -->
+
+    </div><!-- container -->
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; Copyright Vitrinellis 2016.
+            </div>
+        </div>
+    </footer>
+
+</main><!-- main -->

@@ -1,0 +1,118 @@
+.c-hamburger {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 130px;
+  height: 65px;
+  font-size: 0;
+  //text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background, width 0.3s;
+
+  p {
+    float: right;
+    color: #fff;
+    margin-right: 18px;
+  }
+}
+
+.c-hamburger:focus {
+  outline: none;
+  background-color: $blue;
+}
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  width: 40px;
+  top: 29px;
+  left: 12px;
+  right: 12px;
+  height: 5px;
+  background: white;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+  content: "";
+}
+
+.c-hamburger span::before {
+  top: -15px;
+}
+
+.c-hamburger span::after {
+  bottom: -15px;
+}
+
+.c-hamburger--htx {
+  float: left;
+  background-color: $blue;
+}
+
+.c-hamburger--htx span {
+  transition: background 0s 0.3s;
+}
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+
+.c-hamburger--htx span::before {
+  transition-property: top, transform;
+}
+
+.c-hamburger--htx span::after {
+  transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active {
+  background-color:$blue;
+}
+
+.c-hamburger--htx.is-active span {
+  background: none;
+}
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  transition-delay: 0s, 0.3s;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .c-hamburger {
+
+    width: 65px;
+    
+    p {
+      display: none;
+    }
+  }
+
+}

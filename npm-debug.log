@@ -1,0 +1,253 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'css-animator' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.2
+4 verbose install initial load of /Users/webdesign2/Web/angular2_start/package.json
+5 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/angular2/package.json
+6 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/angular2-in-memory-web-api/package.json
+7 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/bootstrap/package.json
+8 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/canonical-path/package.json
+9 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/concurrently/package.json
+10 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/css-animator/package.json
+11 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/es6-shim/package.json
+12 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/gulp/package.json
+13 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/gulp-sass/package.json
+14 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/gulp-sourcemaps/package.json
+15 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/gulp-typescript/package.json
+16 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/gulp-webserver/package.json
+17 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/http-server/package.json
+18 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/jasmine-core/package.json
+19 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/karma/package.json
+20 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/karma-chrome-launcher/package.json
+21 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/karma-cli/package.json
+22 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/karma-htmlfile-reporter/package.json
+23 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/karma-jasmine/package.json
+24 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/lite-server/package.json
+25 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/lodash/package.json
+26 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/protractor/package.json
+27 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/reflect-metadata/package.json
+28 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/rimraf/package.json
+29 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/rxjs/package.json
+30 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/systemjs/package.json
+31 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/tslint/package.json
+32 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/typescript/package.json
+33 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/typings/package.json
+34 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/zone.js/package.json
+35 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular2-material/button/package.json
+36 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular2-material/checkbox/package.json
+37 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular2-material/core/package.json
+38 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/.DS_Store/package.json
+39 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/README.dart.md/package.json
+40 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/README.js.md/package.json
+41 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/common/package.json
+42 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/compiler/package.json
+43 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/compiler_cli/package.json
+44 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/core/package.json
+45 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/docs/package.json
+46 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/examples/package.json
+47 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/facade/package.json
+48 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/http/package.json
+49 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/integration_test/package.json
+50 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/license-banner.txt/package.json
+51 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/manual_typings/package.json
+52 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/package.json/package.json
+53 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/platform-browser/package.json
+54 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/platform-browser-dynamic/package.json
+55 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/platform-server/package.json
+56 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/pubspec.yaml/package.json
+57 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/router/package.json
+58 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/router-deprecated/package.json
+59 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/tsd.json/package.json
+60 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/typings.d.ts/package.json
+61 verbose installManyTop reading scoped package data from /Users/webdesign2/Web/angular2_start/node_modules/@angular/upgrade/package.json
+62 info package.json @angular/common@2.0.0-rc.1 No description
+63 info package.json @angular/common@2.0.0-rc.1 No repository field.
+64 info package.json @angular/compiler@2.0.0-rc.1 No description
+65 info package.json @angular/compiler@2.0.0-rc.1 No repository field.
+66 info package.json @angular/core@2.0.0-rc.1 No description
+67 info package.json @angular/core@2.0.0-rc.1 No repository field.
+68 info package.json @angular/http@2.0.0-rc.1 No description
+69 info package.json @angular/http@2.0.0-rc.1 No repository field.
+70 info package.json @angular/platform-browser@2.0.0-rc.1 No description
+71 info package.json @angular/platform-browser@2.0.0-rc.1 No repository field.
+72 info package.json @angular/platform-browser-dynamic@2.0.0-rc.1 No description
+73 info package.json @angular/platform-browser-dynamic@2.0.0-rc.1 No repository field.
+74 info package.json @angular/router@2.0.0-rc.1 No description
+75 info package.json @angular/router@2.0.0-rc.1 No repository field.
+76 info package.json @angular/router-deprecated@2.0.0-rc.1 No description
+77 info package.json @angular/router-deprecated@2.0.0-rc.1 No repository field.
+78 info package.json @angular/upgrade@2.0.0-rc.1 No description
+79 info package.json @angular/upgrade@2.0.0-rc.1 No repository field.
+80 info package.json @angular/compiler-cli@0.2.0 No bin file found at ./src/main.js
+81 verbose readDependencies loading dependencies from /Users/webdesign2/Web/angular2_start/package.json
+82 silly cache add args [ 'css-animator', null ]
+83 verbose cache add spec css-animator
+84 silly cache add parsed spec Result {
+84 silly cache add   raw: 'css-animator',
+84 silly cache add   scope: null,
+84 silly cache add   name: 'css-animator',
+84 silly cache add   rawSpec: '',
+84 silly cache add   spec: '*',
+84 silly cache add   type: 'range' }
+85 silly addNamed css-animator@*
+86 verbose addNamed "*" is a valid semver range for css-animator
+87 silly addNameRange { name: 'css-animator', range: '*', hasData: false }
+88 silly mapToRegistry name css-animator
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/css-animator
+92 verbose addNameRange registry:https://registry.npmjs.org/css-animator not in flight; fetching
+93 verbose request uri https://registry.npmjs.org/css-animator
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 09:56:08
+96 verbose request id b1e46f6d3e5291d2
+97 verbose etag "2HRG7NXPZ8PHCBCN6JTUJ42XU"
+98 http request GET https://registry.npmjs.org/css-animator
+99 http 304 https://registry.npmjs.org/css-animator
+100 silly get cb [ 304,
+100 silly get   { date: 'Fri, 13 May 2016 07:56:08 GMT',
+100 silly get     via: '1.1 varnish',
+100 silly get     'cache-control': 'max-age=300',
+100 silly get     etag: '"2HRG7NXPZ8PHCBCN6JTUJ42XU"',
+100 silly get     age: '0',
+100 silly get     connection: 'keep-alive',
+100 silly get     'x-served-by': 'cache-lcy1133-LCY',
+100 silly get     'x-cache': 'MISS',
+100 silly get     'x-cache-hits': '0',
+100 silly get     'x-timer': 'S1463126168.263849,VS0,VE162',
+100 silly get     vary: 'Accept-Encoding' } ]
+101 verbose etag https://registry.npmjs.org/css-animator from cache
+102 verbose get saving css-animator to /Users/webdesign2/.npm/registry.npmjs.org/css-animator/.cache.json
+103 silly addNameRange number 2 { name: 'css-animator', range: '*', hasData: true }
+104 silly addNameRange versions [ 'css-animator',
+104 silly addNameRange   [ '0.0.2',
+104 silly addNameRange     '0.0.3',
+104 silly addNameRange     '0.0.4',
+104 silly addNameRange     '0.0.5',
+104 silly addNameRange     '0.0.6',
+104 silly addNameRange     '0.0.7',
+104 silly addNameRange     '0.1.0',
+104 silly addNameRange     '0.1.1' ] ]
+105 silly addNamed css-animator@0.1.1
+106 verbose addNamed "0.1.1" is a plain semver version for css-animator
+107 silly cache afterAdd css-animator@0.1.1
+108 verbose afterAdd /Users/webdesign2/.npm/css-animator/0.1.1/package/package.json not in flight; writing
+109 verbose afterAdd /Users/webdesign2/.npm/css-animator/0.1.1/package/package.json written
+110 silly install resolved [ { name: 'css-animator',
+110 silly install resolved     version: '0.1.1',
+110 silly install resolved     description: 'Animate elements using CSS classes with support for Angular2.',
+110 silly install resolved     repository:
+110 silly install resolved      { type: 'git',
+110 silly install resolved        url: 'git+https://github.com/fabianweb/css-animator.git' },
+110 silly install resolved     keywords:
+110 silly install resolved      [ 'angular2',
+110 silly install resolved        'animation',
+110 silly install resolved        'animate',
+110 silly install resolved        'directive',
+110 silly install resolved        'css',
+110 silly install resolved        'animate.css' ],
+110 silly install resolved     author: { name: 'Fabian Pirklbauer' },
+110 silly install resolved     license: 'MIT',
+110 silly install resolved     bugs: { url: 'https://github.com/fabianweb/css-animator/issues' },
+110 silly install resolved     homepage: 'https://github.com/fabianweb/css-animator#readme',
+110 silly install resolved     _id: 'css-animator@0.1.1',
+110 silly install resolved     scripts: {},
+110 silly install resolved     _shasum: 'dcb78c4aba79130a8dad29fcf1543001013a1320',
+110 silly install resolved     _from: 'css-animator@*',
+110 silly install resolved     _npmVersion: '3.8.3',
+110 silly install resolved     _nodeVersion: '5.10.1',
+110 silly install resolved     _npmUser: { name: 'fabianweb', email: 'hi@fabianweb.net' },
+110 silly install resolved     dist:
+110 silly install resolved      { shasum: 'dcb78c4aba79130a8dad29fcf1543001013a1320',
+110 silly install resolved        tarball: 'https://registry.npmjs.org/css-animator/-/css-animator-0.1.1.tgz' },
+110 silly install resolved     maintainers: [ [Object] ],
+110 silly install resolved     _npmOperationalInternal:
+110 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+110 silly install resolved        tmp: 'tmp/css-animator-0.1.1.tgz_1461013283579_0.32291406160220504' },
+110 silly install resolved     directories: {},
+110 silly install resolved     _resolved: 'https://registry.npmjs.org/css-animator/-/css-animator-0.1.1.tgz',
+110 silly install resolved     readme: 'ERROR: No README data found!' } ]
+111 info install css-animator@0.1.1 into /Users/webdesign2/Web/angular2_start
+112 info installOne css-animator@0.1.1
+113 verbose installOne of css-animator to /Users/webdesign2/Web/angular2_start not in flight; installing
+114 verbose lock using /Users/webdesign2/.npm/_locks/css-animator-4d3e0f6ea973b3cc.lock for /Users/webdesign2/Web/angular2_start/node_modules/css-animator
+115 silly install write writing css-animator 0.1.1 to /Users/webdesign2/Web/angular2_start/node_modules/css-animator
+116 verbose unbuild node_modules/css-animator
+117 info preuninstall css-animator@0.1.1
+118 info uninstall css-animator@0.1.1
+119 verbose unbuild rmStuff css-animator@0.1.1 from /Users/webdesign2/Web/angular2_start/node_modules
+120 info postuninstall css-animator@0.1.1
+121 silly gentlyRm /Users/webdesign2/Web/angular2_start/node_modules/css-animator is being purged from base /Users/webdesign2/Web/angular2_start
+122 verbose gentlyRm don't care about contents; nuking /Users/webdesign2/Web/angular2_start/node_modules/css-animator
+123 silly vacuum-fs purging /Users/webdesign2/Web/angular2_start/node_modules/css-animator
+124 silly vacuum-fs quitting because other entries in /Users/webdesign2/Web/angular2_start/node_modules
+125 verbose tar unpack /Users/webdesign2/.npm/css-animator/0.1.1/package.tgz
+126 verbose tar unpacking to /Users/webdesign2/Web/angular2_start/node_modules/css-animator
+127 silly gentlyRm /Users/webdesign2/Web/angular2_start/node_modules/css-animator is being purged
+128 verbose gentlyRm don't care about contents; nuking /Users/webdesign2/Web/angular2_start/node_modules/css-animator
+129 silly gunzTarPerm modes [ '755', '644' ]
+130 silly gunzTarPerm extractEntry package.json
+131 silly gunzTarPerm extractEntry README.md
+132 silly gunzTarPerm extractEntry LICENSE
+133 silly gunzTarPerm extractEntry contracts.js
+134 silly gunzTarPerm extractEntry builder.js
+135 silly gunzTarPerm extractEntry index.js
+136 silly gunzTarPerm extractEntry modules.js
+137 silly gunzTarPerm extractEntry index.d.ts
+138 silly gunzTarPerm extractEntry builder.d.ts
+139 silly gunzTarPerm extractEntry bundles/css-animator.js
+140 silly gunzTarPerm extractEntry bundles/css-animator.min.js
+141 silly gunzTarPerm extractEntry contracts/animation_options.js
+142 silly gunzTarPerm extractEntry contracts/element_props.js
+143 silly gunzTarPerm extractEntry contracts/listener_ref.js
+144 silly gunzTarPerm extractEntry contracts/animation_options.d.ts
+145 silly gunzTarPerm extractEntry contracts/element_props.d.ts
+146 silly gunzTarPerm extractEntry contracts/listener_ref.d.ts
+147 silly gunzTarPerm extractEntry modules/animates.directive.js
+148 silly gunzTarPerm extractEntry modules/animation.service.js
+149 silly gunzTarPerm extractEntry modules/animates.directive.d.ts
+150 silly gunzTarPerm extractEntry modules/animation.service.d.ts
+151 silly gunzTarPerm extractEntry modules.d.ts
+152 silly gunzTarPerm extractEntry builder/animation_builder.js
+153 silly gunzTarPerm extractEntry builder/animation_builder.d.ts
+154 silly gunzTarPerm extractEntry contracts.d.ts
+155 verbose write writing to /Users/webdesign2/Web/angular2_start/node_modules/css-animator/package.json
+156 info preinstall css-animator@0.1.1
+157 verbose readDependencies loading dependencies from /Users/webdesign2/Web/angular2_start/node_modules/css-animator/package.json
+158 verbose readDependencies loading dependencies from /Users/webdesign2/Web/angular2_start/node_modules/css-animator/package.json
+159 silly install resolved []
+160 verbose about to build /Users/webdesign2/Web/angular2_start/node_modules/css-animator
+161 info build /Users/webdesign2/Web/angular2_start/node_modules/css-animator
+162 info linkStuff css-animator@0.1.1
+163 silly linkStuff css-animator@0.1.1 has /Users/webdesign2/Web/angular2_start/node_modules as its parent node_modules
+164 verbose linkBins css-animator@0.1.1
+165 verbose linkMans css-animator@0.1.1
+166 verbose rebuildBundles css-animator@0.1.1
+167 info install css-animator@0.1.1
+168 info postinstall css-animator@0.1.1
+169 verbose unlock done using /Users/webdesign2/.npm/_locks/css-animator-4d3e0f6ea973b3cc.lock for /Users/webdesign2/Web/angular2_start/node_modules/css-animator
+170 verbose validateInstall loading /Users/webdesign2/Web/angular2_start/package.json for validation
+171 verbose stack Error: The package reflect-metadata@0.1.3 does not satisfy its siblings' peerDependencies requirements!
+171 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+171 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+171 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+171 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+171 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+171 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+171 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+171 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+171 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+171 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+172 verbose cwd /Users/webdesign2/Web/angular2_start
+173 error Darwin 15.4.0
+174 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "css-animator"
+175 error node v4.1.2
+176 error npm  v2.14.4
+177 error code EPEERINVALID
+178 error peerinvalid The package reflect-metadata@0.1.3 does not satisfy its siblings' peerDependencies requirements!
+178 error peerinvalid Peer angular2@2.0.0-beta.17 wants reflect-metadata@0.1.2
+179 verbose exit [ 1, true ]

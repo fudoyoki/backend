@@ -1,0 +1,14 @@
+:host(.statistiquesContainer) {
+    -webkit-transition: all ease-in 0.2s;
+    transition: all ease-in 0.2s;
+}
+
+:host(.statistiquesContainer.ng-enter) {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+:host(.statistiquesContainer.ng-enter-active) {
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
